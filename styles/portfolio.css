@@ -109,12 +109,14 @@ main {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
+  margin-bottom: 0;
 }
 .info-description {
   color: #474747;
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
+  margin-top: 5px;
 }
 .section-title {
   color: #181818;
@@ -128,4 +130,7 @@ main {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+}
+#what-i-do-description {
+  padding: 30px 150px;
 }
