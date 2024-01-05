@@ -1,7 +1,12 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 /* common shared styles */
 body {
-  font-family: "Open Sans", sans-serif;
-}
+    font-family: "Open Sans", sans-serif;
+  }
 .text-primary {
   color: #fd6e0a;
 }
@@ -28,7 +33,6 @@ nav {
   font-size: 45px;
   font-style: normal;
   font-weight: 800;
-  line-height: normal;
 }
 nav > ul {
   display: flex;
@@ -45,13 +49,40 @@ nav a {
 /* header related style */
 .header {
   background: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px ;
-    display: flex;
-    align-items: center;
+.banner {
+  padding: 30px 30px 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.banner .profile-pic{
-    width: 500px;
-
+.banner-content {
+  max-width: 500px;
+}
+.banner .profile-pic {
+  width: 500px;
+}
+.banner .banner-greeting {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner .banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner .banner-description {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+  /* max-width: 585px; */
 }
