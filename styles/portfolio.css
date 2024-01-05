@@ -190,13 +190,19 @@ main section {
   color: #757575;
   font-size: 16px;
   font-weight: 400;
-
 }
-.resume-container hr{
+.resume-container hr {
   margin: 30px;
   opacity: 20%;
 }
-.download-cv{
+.download-cv {
   text-align: center;
   margin-top: 50px;
+}
+/* footer style */
+footer {
+  background: #fff8f3;
+  display: flex;
+  margin-top: 120px;
+  padding: 100px 230px;
 }
